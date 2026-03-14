@@ -1,0 +1,64 @@
+body {
+  background-color: #0d0d0f;
+  background-image:
+    radial-gradient(
+      ellipse 80% 60% at 50% -10%,
+      rgba(200, 169, 110, 0.08),
+      transparent
+    ),
+    linear-gradient(rgba(200, 169, 110, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(200, 169, 110, 0.03) 1px, transparent 1px);
+  background-size:
+    100% 100%,
+    40px 40px,
+    40px 40px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.flex {
+  background: linear-gradient(135deg, #1a1a2e, #16161a);
+  padding: 48px 40px 43px;
+  border-radius: 16px;
+  border: 1px solid #2a2a35;
+  width: 100%;
+  max-width: 250px;
+}
+
+.font-container {
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.h1 {
+  font-family: "DM Serif Display", serif;
+  color: #e8e6e0;
+  font-size: 22px;
+}
+
+.h2 {
+  color: #7a7870;
+  font-size: 14px;
+}
+
+.h3 {
+  margin-top: 24px;
+  color: #7a7870;
+  font-size: 12px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.example-font {
+  color: #c8a96e;
+}

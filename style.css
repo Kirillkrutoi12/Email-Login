@@ -1,0 +1,128 @@
+.body {
+  /**Getting background-color from Claude.AI**/
+  background-color: #0d0d0f;
+  background-image:
+    radial-gradient(
+      ellipse 80% 60% at 50% -10%,
+      rgba(200, 169, 110, 0.08),
+      transparent
+    ),
+    linear-gradient(rgba(200, 169, 110, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(200, 169, 110, 0.03) 1px, transparent 1px);
+  background-size:
+    100% 100%,
+    40px 40px,
+    40px 40px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /**height = full screen**/
+}
+.flex {
+  background: linear-gradient(135deg, #1a1a2e, #16161a);
+  padding: 52px 44px 48px;
+  border-radius: 16px;
+}
+
+.logo {
+  width: 23px;
+  height: 23px;
+  padding: 9px;
+  background: linear-gradient(135deg, #c8a96e, #e8c98e);
+  border-radius: 10px;
+}
+
+.h1 {
+  font-size: 26px;
+  color: #e8e6e0;
+  margin-bottom: 0;
+}
+
+.h2,
+h3 {
+  font-size: 14px;
+  color: #7a7870;
+  margin-bottom: 17px;
+  margin-top: 5px;
+}
+
+#Password {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding: 12px 22px;
+  border-radius: 8px;
+  border: 1px solid #1a1a2e;
+  background: rgba(255, 255, 255, 0.04);
+  color: #e8e6e0;
+}
+
+#Email {
+  margin-top: 0;
+  padding: 12px 22px;
+  border-radius: 8px;
+  border: 1px solid #1a1a2e;
+  background: rgba(255, 255, 255, 0.04);
+  color: #e8e6e0;
+}
+
+.btn-style {
+  width: 100%;
+  background: linear-gradient(135deg, #c8a96e, #e8c98e);
+  border-radius: 10px;
+  border: none;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 14px 20px;
+  cursor: pointer;
+  /* Pins the text in place */
+  will-change: transform;
+  transition:
+    opacity 0.25s ease,
+    transform 0.2s ease,
+    box-shadow 0.25s ease,
+    background 0.25s ease;
+  box-shadow: 0 4px 12px rgba(200, 169, 110, 0.2);
+}
+.btn-style:hover {
+  opacity: 0.92;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(200, 169, 110, 0.45);
+}
+
+.btn-style:active {
+  transform: translateY(1px);
+  opacity: 1;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #7a7870;
+  font-size: 14px;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #2a2a35;
+}
+
+.SignUpContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.h3 {
+  font-size: 13px;
+}
+
+.Sign-Up {
+  color: #c8a96e;
+}
